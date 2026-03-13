@@ -1,0 +1,54 @@
+# =============================================================
+# .gitignore — Dashboard de Qualidade Streamlit
+# =============================================================
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Variáveis de ambiente (NUNCA subir o .env real)
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Cache do Streamlit
+.streamlit/secrets.toml
+
+# Arquivos de dados (se não devem ir para o repositório)
+# data/*.xlsx
+# data/*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Jupyter (se usar)
+.ipynb_checkpoints/
+
+# pytest / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
